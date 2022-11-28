@@ -1,5 +1,7 @@
 package golmu.studium.study;
 
+import java.util.List;
+
 public interface StudyRepository {
     /**
      * Study에 대한 정보를 받아 저장한다.
@@ -15,4 +17,11 @@ public interface StudyRepository {
      * @return 찾은 Study 객체를 반환한다.
      */
     Study findById(Long id);
+
+    /**
+     * 모든 Study 객체를 반환한다.
+     *
+     * @return 모든 Study 객체
+     */
+    List<Study> findAll();
 }

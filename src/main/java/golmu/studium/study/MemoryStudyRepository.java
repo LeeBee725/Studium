@@ -1,7 +1,10 @@
 package golmu.studium.study;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 public class MemoryStudyRepository implements StudyRepository{
     private final Map<Long, Study> map = new HashMap<>();
@@ -21,5 +24,10 @@ public class MemoryStudyRepository implements StudyRepository{
             System.out.printf("MemoryStudyRepository::findById=>Id가 %d인 값이 없습니다.", id);
         }
         return map.get(id);
+    }
+
+    @Override
+    public List<Study> findAll() {
+        return new ArrayList<>(map.values());
     }
 }

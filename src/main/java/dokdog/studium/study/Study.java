@@ -1,6 +1,6 @@
-package golmu.studium.study;
+package dokdog.studium.study;
 
-import golmu.studium.user.User;
+import dokdog.studium.user.User;
 
 import java.util.Collections;
 import java.util.List;
@@ -10,6 +10,7 @@ public class Study {
     private String subject;
     private List<User> participants;
 
+    public Study() {}
     public Study(Long id, String subject) {
         this.id = id;
         this.subject = subject;

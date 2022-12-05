@@ -1,7 +1,7 @@
-package golmu.studium.study;
+package dokdog.studium.study;
 
 public class StudyDto {
-    private String subject;
+    private final String subject;
 
     public StudyDto(String subject) {
         this.subject = subject;
@@ -9,9 +9,5 @@ public class StudyDto {
 
     public String getSubject() {
         return subject;
-    }
-
-    public void setSubject(String subject) {
-        this.subject = subject;
     }
 }

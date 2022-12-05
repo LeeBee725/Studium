@@ -1,4 +1,4 @@
-package golmu.studium.user;
+package dokdog.studium.user;
 
 public class User {
     private Long id;

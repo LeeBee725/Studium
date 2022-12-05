@@ -1,4 +1,4 @@
-package golmu.studium.study;
+package dokdog.studium.study;
 
 import java.util.List;
 

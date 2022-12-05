@@ -1,4 +1,4 @@
-package golmu.studium;
+package dokdog.studium;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

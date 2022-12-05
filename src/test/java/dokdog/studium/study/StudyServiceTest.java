@@ -1,4 +1,4 @@
-package golmu.studium.study;
+package dokdog.studium.study;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
@@ -15,7 +15,7 @@ class StudyServiceTest {
         StudyDto studyDTO = new StudyDto("주제1");
 
         studyService.open(studyDTO);
-        List<Study> studies = studyService.searchTotalStudy();
+        List<StudyDto> studies = studyService.searchTotalStudy();
 
         Assertions.assertThat(studies.get(0).getSubject()).isEqualTo(studyDTO.getSubject());
     }

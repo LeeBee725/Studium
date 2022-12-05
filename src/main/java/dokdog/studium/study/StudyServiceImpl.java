@@ -7,14 +7,14 @@ public class StudyServiceImpl implements StudyService {
     private static Long sequence = 0L;
 
     @Override
-    public Study open(StudyDTO form) {
+    public StudyDto open(StudyDto form) {
         Study study = new Study(++sequence, form.getSubject());
         studyRepository.save(study);
         return study;
     }
 
     @Override
-    public List<Study> searchTotalStudy() {
+    public List<StudyDto> searchTotalStudy() {
         return studyRepository.findAll();
     }
 }

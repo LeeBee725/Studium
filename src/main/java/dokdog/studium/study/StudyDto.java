@@ -1,13 +1,9 @@
 package golmu.studium.study;
 
-import golmu.studium.user.User;
-
-import java.util.List;
-
-public class StudyDTO {
+public class StudyDto {
     private String subject;
 
-    public StudyDTO(String subject) {
+    public StudyDto(String subject) {
         this.subject = subject;
     }
 

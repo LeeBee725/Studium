@@ -12,8 +12,7 @@ public class MemoryStudyRepository implements StudyRepository{
     @Override
     public void save(Study study) {
         if (study == null) {
-            System.out.println("MemoryStudyRepository::save=>Study 객체가 null 입니다.");
-            return ;
+            throw new NullPointerException("MemoryStudyRepository::save=>Study 객체가 null 입니다.");
         }
         map.put(study.getId(), study);
     }

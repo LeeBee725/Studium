@@ -1,4 +1,4 @@
-package dokdog.studium.utils;
+package leebee.studium.utils;
 
 public interface Mapper {
     /**

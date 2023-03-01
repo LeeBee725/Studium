@@ -1,6 +1,6 @@
-package dokdog.studium.study;
+package leebee.studium.study;
 
-import dokdog.studium.user.User;
+import leebee.studium.user.User;
 
 import java.util.Collections;
 import java.util.List;

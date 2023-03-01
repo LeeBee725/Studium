@@ -1,4 +1,4 @@
-package dokdog.studium.study;
+package leebee.studium.study;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;

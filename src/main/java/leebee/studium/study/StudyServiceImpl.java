@@ -1,6 +1,6 @@
-package dokdog.studium.study;
+package leebee.studium.study;
 
-import dokdog.studium.utils.Mapper;
+import leebee.studium.utils.Mapper;
 
 import java.util.List;
 import java.util.stream.Collectors;

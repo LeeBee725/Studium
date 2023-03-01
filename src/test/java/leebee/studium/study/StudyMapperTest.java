@@ -1,4 +1,4 @@
-package dokdog.studium.study;
+package leebee.studium.study;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

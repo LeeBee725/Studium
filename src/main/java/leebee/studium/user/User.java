@@ -1,4 +1,4 @@
-package dokdog.studium.user;
+package leebee.studium.user;
 
 public class User {
     private Long id;

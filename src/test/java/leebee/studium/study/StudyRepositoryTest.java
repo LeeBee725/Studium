@@ -1,10 +1,10 @@
-package dokdog.studium.study;
+package leebee.studium.study;
 
+import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.mockito.internal.matchers.Null;
 
 import java.io.ByteArrayOutputStream;
 import java.io.OutputStream;
@@ -109,7 +109,7 @@ class StudyRepositoryTest {
         studyRepository.save(study3);
         List<Study> studies = studyRepository.findAll();
 
-        assertThat(studies).contains(study1, study2, study3);
+        Assertions.assertThat(studies).contains(study1, study2, study3);
     }
 
     private String output() {

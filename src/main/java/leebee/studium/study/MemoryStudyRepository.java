@@ -1,4 +1,4 @@
-package dokdog.studium.study;
+package leebee.studium.study;
 
 import java.util.*;
 
